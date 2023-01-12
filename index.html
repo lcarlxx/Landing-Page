@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Corbel;
+                background-color: #1F2937;
+            }
+            .logo {
+                font-size: 24px;
+                color: white;
+                font-weight: 700;
+            }
+            .header {
+                height: 80px;
+                display: flex;
+                background-color: #1F2937;
+                align-items: center;
+                justify-content: space-around;
+            }
+            ul {
+                display: flex;
+                gap: 16px;
+                list-style-type: none;
+            }
+            a {
+                text-decoration: none;
+                color: #E5E7EB;
+            }
+            .placeholder {
+                width: 400px;
+                height: auto;
+            }
+            .after-header{
+                display: flex;
+                justify-content: center;
+                background-color: #1F2937;
+                align-items: center;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+            .before-img {
+                flex-direction: column;
+                margin-right: 40px;
+            }
+            .heading {
+                width: 400px;
+                font-size: 48px;
+                color: #F9FAF8;
+                font-weight: 700;
+            }
+            .text {
+                color: #E5E7EB;
+                width: 400px;
+            }
+            button.first {
+                background: royalblue;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                padding: 8px 16px;
+                margin-top: 10px;
+            }
+            .information {
+                background: white;
+            }
+            .images {
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                padding-bottom: 60px;
+            }
+            .information-header {
+                font-size: 36px;
+                font-weight: 700;
+                color: #1F2937;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .info-img {
+                width: 200px;
+                height: 200px;
+                display: flex;
+                border: 4px solid royalblue;
+                border-radius: 8px;
+            }
+            .info {
+                max-width: 200px;
+            }
+            .info-text {
+                padding-top: 7px;
+                font-size: 15px;
+                text-align: center;
+                color: rgb(127, 127, 127);
+            }
+            .quote {
+                background: #E5E7EB;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .quote-text {
+                color: #1F2937;
+                font-size: 36px;
+                font-style: italic;
+                font-weight: lighter;
+                width: 800px;
+                padding: 60px;
+            }
+            .author {
+                font-size: 30px;
+                font-style: normal;
+                font-weight:bold;
+                float: right;
+            }
+            .modal-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+            }
+            .modal {
+                background: royalblue;
+                width: 700px;
+                height: 100px;
+                display: flex;
+                padding: 20px 40px;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                border-radius: 10px;
+            }
+            .column1 {
+                margin-top: 30px;
+                color: white;
+            }
+            .modal-heading {
+                font-weight: 900;
+            }
+            .modal-text {
+                font-weight: lighter;
+            }
+            button.second {
+                background: royalblue;
+                color: white;
+                border: 1px solid white;
+                border-radius: 4px;
+                margin-top: 40px;
+                margin-left: 150px;
+                padding: 4px 18px;
+                font-weight: bold;
+            }
+            .footer {
+                background: #1F2937;
+                color: white;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+        <div class = "header">
+            <div class = "logo">Header Logo</div>
+            <div class = "links">
+            <ul>
+                <a href = "#"><li>header link one</li></a>
+                <a href = "#"><li>header link two</li></a>
+                <a href = "#"><li>header link three</li></a>
+            </ul>
+        </div>
+        </div>
+        <div class = "after-header">
+            <div class = "before-img">
+        <div class = "heading">
+            This website is awesome
+        </div>
+        <div class = "text">
+            This website has some subtext that goes here under the main title. It is a smaller font and the color is lower contrast
+        </div>
+        <button class = "first">Sign Up</button>
+    </div>
+        <img class = "placeholder" src = "istv3.jpg"/>
+    </div>
+    </div>
+
+    <div class = "information">
+        <div class = "information-header">Some random information.</div>
+        <div class = "images">
+        <div class = "info">
+            <img class = "info-img" src = "itsv.jpg"/>
+            <div class = "info-text">this is some subtext under the illustration or image</div>
+        </div>
+        <div class = "info">
+            <img class = "info-img" src = "itsv2.jpg"/>
+            <div class = "info-text">this is some subtext under the illustration or image</div>
+        </div>
+        <div class = "info">
+            <img class = "info-img" src = "nwh.jpg"/>
+            <div class = "info-text">this is some subtext under the illustration or image</div>
+        </div>
+        <div class = "info">
+            <img class = "info-img" src = "avatar.jpeg"/>
+            <div class = "info-text">this is some subtext under the illustration or image</div>
+        </div>
+    </div>
+    </div>
+
+    <div class = "quote">
+        <div class = "quote-text">
+        I understand the rules of superman. Not necessarily better than anyone else - but better than a normal filmmaker would. After doing "Watchmen" and digging that deep into the why of superheroes, when Superman is presented to you, I felt like i was in a unique position to say "I get this guy, I know what this is". <p class = "author">- Zack Snyder</p>
+        </div>
+</div>
+<div class = "modal-container">
+<div class = "modal">
+    <div class = "column1">
+    <div class = "modal-heading">Call to action! It's Time!</div>
+    <div class = "modal-text">Sign up for our product by clicking that button right over there!</div>
+    </div>
+    <div class = "column2">
+    <button class = "second">Sign Up</button>
+</div>
+</div>
+</div>
+<div class = "footer">
+    <div class = "text">
+    Copyright © The Odin Project 2021
+</div>
+</div>
+    </body>
+</html>
